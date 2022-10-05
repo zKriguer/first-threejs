@@ -78,3 +78,31 @@ blockquote p {
 .left {
   grid-column: 6 / 12;
 }
+
+@media (max-width: 600px) {
+  main {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+  header {
+    width: 100%;
+  }
+
+  header h1,
+  p {
+    font-size: 30px;
+  }
+
+  blockquote p {
+    font-size: 40px;
+  }
+  blockquote {
+    text-align: left;
+  }
+
+  section {
+    width: 50vw;
+  }
+}
