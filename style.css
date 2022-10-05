@@ -104,5 +104,10 @@ blockquote p {
 
   section {
     width: 50vw;
+    opacity: 0.8;
+  }
+
+  section p {
+    font-size: 15px;
   }
 }
